@@ -1,0 +1,626 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Cambria';
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+    font-family: 'Raleway';
+}
+
+.container {
+    padding-right: 1%;
+    padding-left: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #ccc0b8;
+    height: 80px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+}
+
+.nav-item {
+    display: block;
+    margin: 0 2%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #594d40;
+}
+
+a.nav-link.active {
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: white;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-space {
+    letter-spacing: 5px;
+}
+
+img.img-fluid {
+    max-width: 27%;
+    height: auto;
+}
+
+/* BANNIERE ACCUEIL */
+header.banAccueil {
+    padding-top: 25rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    background-image: url("../assets/eulalie.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.banContact {
+    padding-top: 25rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    background-image: url("../assets/eulalie-contact.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+button,
+.button {
+    background-color: rgba(249, 242, 238, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 300;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #594d40;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    font-family: 'Raleway';
+}
+
+footer .button {
+    font-size: 0.7rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* INDEX */
+
+section#servicesRea {
+    margin-top: 2%;
+}
+
+section#servicesRea h1,
+section#aPropos h1,
+div#buttonRea {
+    background-color: #ecd2c1;
+    padding: 2%;
+
+    font-weight: 600;
+    margin: 1% 2%;
+}
+
+div#buttonCV {
+    background-color: #eaded6;
+    padding: 1%;
+    font-weight: 600;
+    margin: 1% 10%;
+}
+
+.button:hover {
+    background-color: rgba(221, 157, 177, 0.3);
+}
+
+div#serv-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#serv-img a img {
+    max-width: 70%;
+    border-radius: 100px;
+}
+
+.serv-t1 {
+    letter-spacing: 5px;
+}
+
+.serv-t2 {
+    line-height: 5px;
+    font-size: 0.75em;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: gray
+}
+
+div#serv-img div {
+    font-family: 'Raleway';
+    width: 250px;
+}
+
+
+section#aPropos,
+section#aPropos div {
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#aPropos div#presentation {
+    max-width: 40%;
+    margin-left: -2%;
+}
+
+section#aPropos div#cv-img {
+    margin-top: 2%;
+}
+
+#ind-pres-t1 {
+    font-family: 'Raleway';
+    font-size: 1.35em;
+}
+
+.ind-presentation h1,
+.ind-presentation h3 {
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+/* CV */
+span.gras,
+p.gras {
+    font-weight: bold;
+}
+
+p#niv1 {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 3% 0;
+    font-family: 'Raleway';
+    letter-spacing: 8px;
+}
+
+p#niv2 {
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    margin: 1% 0;
+
+}
+
+p#niv3 {
+    font-size: 1.10em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    margin: 1% 0;
+}
+
+div#cv-img {
+    justify-content: end;
+}
+
+body {
+    background-color: #f9f2ee;
+}
+
+body#cv section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+section#presentation div img {
+    border-radius: 150px;
+}
+
+section div#apropos,
+section div#parcours {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1%;
+}
+
+section div#apropos,
+section div#competences {
+    text-align: justify;
+}
+
+section div#apropos h3 {
+    text-align: center;
+}
+
+section div#parcours ul {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+section div#parcours ul li {
+    margin: 1% 0;
+}
+
+section div#parcours ul p {
+    font-size: small;
+}
+
+section div#competences ul li {
+    list-style: disc;
+    margin: 1% 0;
+}
+
+section#niveau3 {
+    display: flex;
+    flex-direction: column !important;
+}
+
+section#niveau3 section div#exp1 div p,
+section#niveau3 section div#exp2 div p {
+    margin: 2%;
+}
+
+section#niveau3 section div#exp1 div,
+section#niveau3 section div#exp2 div {
+    margin: 5%;
+}
+
+section#niveau3 section div div p span {
+    letter-spacing: 3px;
+}
+
+.barre-sep {
+    margin: 2% 10%
+}
+
+p#niv1 span {
+    background-color: rgba(161, 227, 225, 0.8);
+    padding: 0 10px;
+}
+
+
+div#apropos h3 span {
+    background-color: rgb(139, 207, 207);
+    padding: 0 8px;
+}
+
+div#parcours h3 span {
+    background-color: rgb(178, 234, 215);
+    padding: 0 8px;
+}
+
+div#competences h3 span {
+    background-color: rgb(159, 209, 229);
+    padding: 0 8px;
+    text-align: center;
+}
+
+div#competences h4 {
+    background-color: rgb(233, 216, 244);
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+
+div#competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#niveau3 h3 span {
+    background-color: rgb(174, 211, 216);
+    padding: 0 8px;
+}
+
+div#loisirs h3 span {
+    background-color: rgb(182, 237, 202);
+    padding: 0 8px;
+}
+
+div#loisirs ul li,
+div#loisirs ul li span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#loisirs ul li span {
+    color: rgb(98, 143, 143);
+    margin-right: 8px;
+}
+
+div#competences ul li span {
+    font-weight: bold;
+}
+
+span.vert {
+    background-color: rgb(178, 234, 215);
+    padding: 0 5px;
+}
+
+hr {
+    color: rgb(159, 209, 229);
+}
+
+p#bas-page {
+    margin-top: -0.5%;
+    margin-bottom: 1%;
+}
+
+.cv-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-icons img {
+    width: 80px;
+    margin: 1% 2%;
+}
+
+div#ind-img-rea img {
+    height: 200px;
+}
+
+h3#expl {
+    margin-top: 2%;
+}
+
+
+/* CONTACT */
+div.infosC p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+
+}
+
+div.infosC p span {
+    margin: 1%;
+    margin-right: 2%;
+    color :rgb(150, 112, 128)
+}
+
+div.resxSoc {
+    justify-content: center;
+}
+
+div.resxSoc a {
+    margin: 2%;
+    font-size: 2rem;
+    color :rgb(150, 112, 128)
+}
+
+div#contacts h4 {
+    background-color: #ccc0b8;
+    padding: 1%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    margin-left: 5%;
+}
+
+input:not([type="checkbox"]),
+textarea {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.862);
+    border: 1px solid rgb(150, 112, 128);
+    border-radius: 5px;
+    padding: 0.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+label + input, label + textarea{
+    margin : 0.5%;
+    margin-bottom: 2%;
+}
+
+section#formulaire {
+    justify-content: center;
+    margin-top: 2%;
+}
+
+a#submitButton {
+    font-size: 0.9em;
+    margin-top: 2%;
+}
+
+div#contact-present p {
+    background-color: rgba(192, 178, 162, 0.40);
+    margin : 1% 15%;
+    padding :1% 0;
+    border : solid 1px #7e7367;
+    border-radius: 10px;
+}
+
+
+
+/* PORTFOLIO */
+
+body#portfolio h1 {
+    background-color: #b49c8e;
+    padding: 1%;
+    margin : 1% 5%;
+    color : white;
+}
+
+body#portfolio h3 {
+    background-color: #E3D5CC;
+    padding: 0.75%;
+    margin : 1% 10%;
+}
+
+.link {
+    background-color: #E3D5CC;
+    margin : 1%;
+    padding : 0.5% 1%;
+    text-decoration: none;
+    color: #212529;
+}
+
+section#web div.ehp img {
+    max-width: 20%;
+    margin : 1%;
+}
+
+section#web div.veto img {
+    max-width: 40%;
+    margin : 0.5%;
+}
+
+section#idVisu div.resx img {
+    height : 350px;
+    margin : 0.5%;
+}
+
+section#idVisu div img {
+    max-width: 250px;
+}
+
+section#idVisu div.chG a img {
+    max-width: 350px;
+}
+section#idVisu div.chG img, section#idVisu div.chG a {
+    margin : 1% 2%;
+}
+
+section#docu div.resto img:not([class="prt"]) {
+    max-width: 350px;
+    margin : 0.5%;
+}
+
+section#docu div.resto img[class="prt"] {
+    max-height: 300px;
+}
+
+section#docu div.oth img:not([class="prt"]) {
+    max-height: 200px;
+    margin : 0.5%;
+}
+
+section#docu div.oth img[class="prt"] {
+    max-height: 300px;
+}
+
+section#photo div img.img-fluid {
+    max-width: 20%;
+    margin: 0.2%;
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc0b8;
+    margin-bottom: 0;
+    padding: 0.5%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+}
+
+footer a.btn {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+div#foot-btn,
+div#foot-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a,
+footer p {
+    margin: 5px 15px;
+}
